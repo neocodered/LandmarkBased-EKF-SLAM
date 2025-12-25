@@ -16,7 +16,6 @@ The project is organized into modular MATLAB scripts and a resources folder:
 ├── run_ekf_simulation.m          # CORE LOGIC: The EKF prediction-correction loop
 ├── calculate_simulation_error.m  # VALIDATION: RMSE calculation against Ground Truth
 ├── gen_corner.m                  # UTILITY: Geometry generator for track corners
-├── 210200C_EN4594_MiniProject.pdf # Final Project Report
 ├── Images/                       # Simulation results (Images & Videos)
 │   ├── Round Track EKF.png
 │   ├── Round Track.mp4
