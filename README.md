@@ -5,10 +5,10 @@
 ## Project Overview
 This repository contains a **MATLAB implementation of an Extended Kalman Filter (EKF) for Simultaneous Localization and Mapping (SLAM)**. The project simulates a differential drive robot navigating through track boundaries defined by discrete landmarks (traffic cones), inspired by **Formula Student Driverless** competitions.
 
-| Track 1 | Track 2 | Track 3 |
+| Track 1: Circular | Track 2: Stadium | Track 3: Square w/ Corners |
 |:---:|:---:|:---:|
-| ![Ground Track GT](Images/Round%Track%GT.png) | ![Extended Round Track GT](Extended%Round%Track%GT.png) | ![Square Rounded Corner Track GT](Square%Rounded%Corner%Track%GT.png) |
-| Circular Track Ground Truth | Stadium Track Ground Truth | Rounded Corner Square Track Ground Truth |
+| ![Circular Track GT](Images/Round%20Track%20GT.png) | ![Stadium Track GT](Images/ExtendedRoundTrackGT.png) | ![Square Track GT](Images/Square%20Rounded%20Corner%20Track%20GT.png) |
+| *Ground Truth Map* | *Ground Truth Map* | *Ground Truth Map* |
 
 
 The system addresses the "Chicken and Egg" problem of SLAM by simultaneously estimating the robot's pose $(x, y, \theta)$ and the Cartesian coordinates of the landmarks using a range-bearing sensor model.
@@ -61,9 +61,5 @@ The image below shows the resulting map compared to the ground truth. The blue e
 
 | Estimated Trajectory | Landmark Uncertainty | Error Analysis |
 |:---:|:---:|:---:|
-| ![Trajectory](path/to/trajectory.png) | ![Covariance](path/to/covariance.png) | ![Error Plot](path/to/error_plot.png) |
+| ![Trajectory](Images/stadiumekf.gif) | ![Covariance](path/to/covariance.png) | ![Error Plot](path/to/error_plot.png) |
 | *Robot path (Red) vs Ground Truth (Green)* | *3-Sigma Uncertainty Ellipses* | *RMSE of X, Y, and Theta over time* |
-
-
-
-
