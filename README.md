@@ -1,6 +1,6 @@
 # Feature-Based EKF SLAM for Autonomous Racing
 
-![Project Banner](Images/Round%20Track%20EKF.png)
+![Project Banner](Images/DV.png)
 
 ## Project Overview
 This repository contains a **MATLAB implementation of an Extended Kalman Filter (EKF) for Simultaneous Localization and Mapping (SLAM)**. The project simulates a differential drive robot navigating through track boundaries defined by discrete landmarks (traffic cones), inspired by **Formula Student Driverless** competitions.
